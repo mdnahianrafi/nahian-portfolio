@@ -36,7 +36,7 @@ html {
   color: #F2F2F2;
   font-size: 15px;
   font-weight: 500;
-  font-family: "Raleway", sans-serif;
+  font-family: "JetBrains Mono", sans-serif;
 }
 .navbar .nav-item .nav-link:hover {
   color: #0A66C2;
@@ -56,7 +56,7 @@ html {
   border-radius: 20px;
   font-size: 17px;
   font-weight: 600;
-  font-family: "Raleway", sans-serif;
+  font-family: "JetBrains Mono", sans-serif;
 }
 .hire-btn:hover {
   color: #F2F2F2;
@@ -95,7 +95,7 @@ html {
   font-size: 51px;
   font-weight: 700;
   line-height: 62px;
-  font-family: "Raleway", sans-serif;
+  font-family: "JetBrains Mono", sans-serif;
 }
 
 
@@ -104,7 +104,7 @@ html {
   font-size: 47px;
   font-weight: 700;
   line-height: 62px;
-  font-family: "Raleway", sans-serif;
+  font-family: "JetBrains Mono", sans-serif;
   white-space: nowrap; /* Prevent text wrapping */
   overflow: hidden; /* Hide overflowing text */
   border-right: 2px solid #F2F2F2; /* Create blinking cursor */
@@ -128,7 +128,7 @@ html {
     font-size: 16px;
     font-weight: 500;
     line-height: 35px;
-    font-family: "Raleway", sans-serif;
+    font-family: "JetBrains Mono", sans-serif;
   }
 
 
@@ -149,7 +149,7 @@ background: #2f8ff0;
     border-radius: 20px;
     font-size: 17px;
     font-weight: 600;
-    font-family: "Raleway", sans-serif;
+    font-family: "JetBrains Mono", sans-serif;
 
   }
   .btn:hover{
@@ -194,7 +194,7 @@ overflow-x: hidden;
   font-size: 26px;
   font-weight: 600;
   line-height: 31.2px;
-  font-family: "Raleway", sans-serif;
+  font-family: "JetBrains Mono", sans-serif;
   color: #F2F2F2;
 }
 .personal-info .title 
@@ -204,7 +204,7 @@ overflow-x: hidden;
   font-size: 20px;
   font-weight: 600;
   line-height: 24.2px;
-  font-family: "Raleway", sans-serif;
+  font-family: "JetBrains Mono", sans-serif;
   color: #ffffff6f;
 }
 .personal-info .ans 
@@ -212,7 +212,7 @@ overflow-x: hidden;
   font-size: 20px;
   font-weight: 600;
   line-height: 24.2px;
-  font-family: "Raleway", sans-serif;
+  font-family: "JetBrains Mono", sans-serif;
   color: #F2F2F2;
 }
 .prft-card
@@ -228,7 +228,7 @@ overflow-x: hidden;
   font-size: 50px;
   font-weight: 600px;
   line-height: 60px;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'JetBrains Mono', sans-serif;
 }
 .prft-card p
 {
@@ -237,7 +237,7 @@ overflow-x: hidden;
   font-size: 25px;
   font-weight: 400;
   line-height: 24.15px;
-  font-family: 'Raleway', Sans-serif;
+  font-family: 'JetBrains Mono', Sans-serif;
 }
 .separator {
   height: 2px;
@@ -252,7 +252,7 @@ overflow-x: hidden;
   font-size: 24px;
   font-weight: 600;
   line-height: 31.15px;
-  font-family: 'Raleway', Sans-serif;
+  font-family: 'JetBrains Mono', Sans-serif;
   color: #F2F2F2;
 }
 
@@ -273,6 +273,7 @@ padding-right: 10px;
 font-size: 40px;
 line-height: 19.2px;
 color: #2f8ff0;
+font-family: 'JetBrains Mono',sans-serif;
 
 }
 .time h4{ 
@@ -291,6 +292,7 @@ border-radius: 10px;
   font-size: 20px;
   line-height: 21.6px;
   color: #FFF;
+  font-family: 'JetBrains Mono',sans-serif;
 }
 .edu-text h1::before {
   content: "";
@@ -308,6 +310,7 @@ border-radius: 10px;
   font-size: 19px;
   line-height: 21.6px;
   color: #7c7a7a;
+  font-family: 'JetBrains Mono',sans-serif;
 }
 /* About Part Ended */
 
@@ -384,21 +387,21 @@ margin-top: 20px;
   font-size: 35px;
   font-weight: 700;
   line-height: 67.56px;
-  font-family: "Raleway", sans-serif;
+  font-family: 'JetBrains Mono',sans-serif;
   color: #FFF;
 
 }
 .get-in-touch p {
-  padding: 0 369px;
+  padding: 0 355px;
   font-size: 20px;
   font-weight: 700;
-  font-family: "Raleway", sans-serif;
+  font-family: 'JetBrains Mono',sans-serif;
   color: #FFF;
 }
 .call-and-mail h3 {
   font-size: 20px;
   font-weight: 700;
-  font-family: "Raleway" ,sans-serif;
+  font-family: 'JetBrains Mono',sans-serif;
   color: white;
 }
 .mail-icon
