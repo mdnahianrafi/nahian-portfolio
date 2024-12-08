@@ -1,0 +1,31 @@
+
+.circular-progress{
+    position: relative;
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+  background: #d4443b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circular-progress::before{
+    content: "";
+    position: absolute;
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    background-color: #1a1a1a;
+}
+.progress-value{
+    position: relative;
+    font-size: 40px;
+    font-weight: 600;
+    color: #FFF;
+}
+.text{
+    font-size: 24px;
+    font-weight: 500;
+    color: #fffefe;
+    line-height: 120px;
+}

@@ -1,0 +1,252 @@
+@media screen  and (max-width:992px) {
+    
+
+    .navbar .nav-item .nav-link
+    {
+        font-size: 17px;
+    }
+
+
+.hire-btn
+{
+padding: 10px;
+font-size: 15px;
+}
+.header-text {
+    position: relative;
+    padding: 136px 0 0 0;
+}
+
+.my-image {
+    margin-left: 162px;
+}
+.my-image  img{
+    
+    border: 1px solid rgb(220, 90, 90);
+}
+
+.header-text h1 {
+    font-size: 35px;
+}
+.header-text h1::before {
+    height: 5px;
+    width: 32px;
+    top: 48%;
+    left: -5%;
+}
+
+.header-text h2 {
+    font-size: 32px;
+    line-height: 60px;
+}
+  .header-text p {
+    color: #FFFF;
+    font-size: 13px;
+    font-weight: 500;
+}
+/* Banner Part Ended */
+/* about Part started  */
+.about-header-text h1
+{
+  font-size: 50px;
+  line-height: 63.56px;
+
+}
+.about-header-text h2
+{
+  font-size: 50px;
+  line-height: 63.56px;
+
+
+}
+}
+@media screen  and (max-width:768px) {
+    
+/* Header Part Startded   */
+
+#header-part .navbar {
+    width: 100%;
+overflow: hidden;
+}
+    .navbar .nav-item .nav-link
+    {
+        font-size: 17px;
+    }
+    .navbar .nav-item .nav-link {
+        font-size: 14px;
+    }
+
+.hire-btn
+{
+padding: 10px;
+font-size: 15px;
+}
+/* Header Part Ended  */
+
+/* Banner Part Started  */
+#banner-part {
+    padding: 74px 0 21px 0;
+
+}
+.header-text {
+    position: relative;
+    padding: 136px 0 0 0;
+}
+
+.my-image {
+    margin-left:0;
+}
+.my-image  img{
+    
+    border: 1px solid rgb(220, 90, 90);
+}
+
+.color-block {
+	position: absolute;
+	background: #d4443b;
+	height: 162%;
+	width: 100%;
+	transform: rotate(2deg);
+	left: -83%;
+	top: -50%;
+}
+.header-text h1 {
+    font-size: 30px;
+    color: #fffefe;
+}
+
+
+.header-text h2 {
+    font-size: 32px;
+    line-height: 60px;
+}
+  .header-text p {
+    color: #FFFF;
+    font-size: 13px;
+    font-weight: 500;
+}
+/* Banner Part Ended */
+
+/* About Part Started  */
+
+#about-part .container
+{
+     width: 75%;
+}
+.about-header-text h1 {
+    font-size: 30px;
+}
+
+.about-header-text h2 {
+    font-size: 30px;
+}
+
+.personal-info h2 {
+    font-size: 23px;
+    line-height: 31.2px;
+}
+.personal-info .title {
+    font-size: 12px;
+    line-height: 24.2px;
+}
+.personal-info .ans {
+    font-size: 10px;
+    line-height: 24.2px;
+}
+
+
+.btn {
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-size: 13px;
+    border: 2px solid black;
+}
+
+.progress-value {
+    font-size: 27px;
+}
+.prft-card h1 {
+    font-size: 27px;
+}
+
+.text {
+    font-size: 21px;
+    font-weight: 500;
+    color: #fffefe;
+    line-height: 87px;
+}
+
+.prft-card p {
+    font-size: 12px;
+    line-height: 22.15px;
+}
+
+.edu-item .icon {
+    font-size: 23px;
+}
+.time h4 {
+    font-size: 15px;
+    line-height: 15.2px;
+}
+
+.edu-text h1::before {
+    height: 40px;
+    width: 2px;
+    top: 24%;
+    left: 3.5%;
+}
+.edu-text h3 {
+font-size: 14px;
+}
+
+.circular-progress-bar {
+
+    height: 150px;
+    width: 150px;
+  }
+.prft-header-text h1 {
+    font-size: 30px;
+}
+
+.prft-header-text h2 {
+    font-size: 30px;
+}
+/* About Part Ended  */
+/* Contact Part  */
+.contact-header-text h1 {
+    font-size: 30px;
+}
+.contact-header-text h2 {
+    font-size: 30px;
+}
+.get-in-touch h1 {
+    font-size: 23px;
+}
+.get-in-touch p {
+    padding: 0px 13px;
+    font-size: 15px;
+}
+
+.call-and-mail h3 {
+    font-size: 14px;
+}
+.mail-icon {
+    font-size: 25px;
+}
+.call-icon {
+    margin-right: 20px;
+    font-size: 25px;
+    color: #d4443b;
+}
+
+.social-icons i {
+    margin-right: 15px;
+    padding: 10px;
+    height: 40px;
+    width: 40px;
+    font-size: 22px;
+}
+
+
+
+}

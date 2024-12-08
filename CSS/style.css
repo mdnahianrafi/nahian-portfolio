@@ -1,0 +1,455 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+ body
+ {
+  overflow-x: hidden;
+
+ }
+
+
+
+/* Header Part Start*/
+#header-part {
+  background: #000;
+}
+#header-part .navbar{
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  background: #1c1c22;
+  padding-top: 20px;
+}
+ #header-part .navbar .navbar-brand img 
+ {
+  border-radius: 50px;
+  box-shadow: 0.5px 3px 0 0.5px #2f8ff0;
+  
+ }
+.navbar .nav-item .nav-link {
+  margin-right: 41px;
+  color: #F2F2F2;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: "Raleway", sans-serif;
+}
+.navbar .nav-item .nav-link:hover {
+  color: #0A66C2;
+  transition: 0.3s ease;
+}
+.navbar-toggler{
+  background: white;
+}
+.hire-button a {
+  text-decoration: none;
+  color: #1c1c22;
+}
+
+.hire-btn {
+  background: #2f8ff0;
+  padding: 12px 22px;
+  border-radius: 20px;
+  font-size: 17px;
+  font-weight: 600;
+  font-family: "Raleway", sans-serif;
+}
+.hire-btn:hover {
+  color: #F2F2F2;
+  background: transparent;
+  border: 1px solid #2f8ff0;
+  transition: .3s ease;
+}
+/* Header Part End */
+
+/* Banner Part Started*/
+#banner-part {
+  padding: 200px 0 280px 0;
+  background: #1c1c22;
+  overflow: hidden;
+
+}
+.profile-image img
+{
+ border-radius: 70px;
+ box-shadow: 0.5px 3px 0 0.5px #2f8ff0;
+}
+.color-block {
+  border-bottom: 1px solid #3d78b379; /* Test with custom CSS */
+}
+.my-image img {
+  border-radius: 20px;
+}
+
+.header-text {
+    position: relative;
+    padding: 136px 0 0 0;
+}
+
+.header-text h1 {
+  color: #2f8ff0;
+  font-size: 51px;
+  font-weight: 700;
+  line-height: 62px;
+  font-family: "Raleway", sans-serif;
+}
+
+
+.header-text h2 { 
+  color: #F2F2F2;
+  font-size: 47px;
+  font-weight: 700;
+  line-height: 62px;
+  font-family: "Raleway", sans-serif;
+  white-space: nowrap; /* Prevent text wrapping */
+  overflow: hidden; /* Hide overflowing text */
+  border-right: 2px solid #F2F2F2; /* Create blinking cursor */
+  display: inline-block; /* Enable width animation */
+  animation: 
+      typing 2s steps(18) forwards, /* Typing effect */
+      cursor 0.5s step-end infinite; /* Blinking cursor */
+}
+
+@keyframes typing {
+  from { width: 0; } /* Start with no text */
+  to { width: 100%; } /* End with full text */
+}
+
+@keyframes cursor {
+  50% { border-color: transparent; } /* Blinking cursor */
+}
+
+.header-text p {
+    color: #F2F2F2;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 35px;
+    font-family: "Raleway", sans-serif;
+  }
+
+
+.btn a{
+text-decoration: none;
+color: #1c1c22;
+
+  }
+.btn a i{
+font-size: 50px;
+color: #1c1c22;
+background: #2f8ff0;
+
+  }
+  .btn {
+    background: #2f8ff0;
+    padding: 15px 22px;
+    border-radius: 20px;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: "Raleway", sans-serif;
+
+  }
+  .btn:hover{
+color: #F2F2F2;
+border: 1px solid #2f8ff0;
+transition: .3s ease;
+
+
+  }
+
+/* Banner Part Ended */
+/* About Part Started */
+#about-part
+{
+padding: 90px 0;
+background: #1c1c22;
+overflow-x: hidden;
+}
+
+.about-header-text h1
+{
+  padding-right: 10px;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 67.56px;
+  font-family: "Raleway", sans-serif;
+  color: #F2F2F2;
+
+}
+.about-header-text h2
+{
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 67.56px;
+  font-family: "Raleway", sans-serif;
+  color: #2f8ff0;
+
+}
+
+.personal-info h2
+{
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 31.2px;
+  font-family: "Raleway", sans-serif;
+  color: #F2F2F2;
+}
+.personal-info .title 
+{
+
+  margin-right: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24.2px;
+  font-family: "Raleway", sans-serif;
+  color: #ffffff6f;
+}
+.personal-info .ans 
+{
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24.2px;
+  font-family: "Raleway", sans-serif;
+  color: #F2F2F2;
+}
+.prft-card
+{
+  padding: 23px 50px 23px 40px;
+  border: 1px solid #2f8ff0;
+  border-radius: 25px;
+}
+.prft-card h1
+{
+  
+  color: #2f8ff0;
+  font-size: 50px;
+  font-weight: 600px;
+  line-height: 60px;
+  font-family: 'Raleway', sans-serif;
+}
+.prft-card p
+{
+  
+  color: #F2F2F2;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 24.15px;
+  font-family: 'Raleway', Sans-serif;
+}
+.separator {
+  height: 2px;
+  background: #F2F2F2;
+  border-top: 1px solid #dcd5d5;
+  margin: 70px auto 55px;
+  max-width: 40%;
+}
+
+.skills-part h1
+{
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 31.15px;
+  font-family: 'Raleway', Sans-serif;
+  color: #F2F2F2;
+}
+
+.circular-progress-bar {
+  position: relative;
+  height: 200px;
+  width: 200px;
+  border: 10px solid #2f8ff0;
+  border-radius: 103px;
+}
+
+
+.edu-item {  
+position: relative;
+}
+.edu-item .icon {  
+padding-right: 10px;
+font-size: 40px;
+line-height: 19.2px;
+color: #2f8ff0;
+
+}
+.time h4{ 
+  margin-top: 9px; 
+  padding: 5px;
+color: #FFFF;
+font-size:25px ;
+line-height: 19.2px;
+background: #424141;
+border-radius: 10px;
+}
+
+.edu-text h1 {
+  padding-top: 10px;
+  padding-left: 50px;
+  font-size: 20px;
+  line-height: 21.6px;
+  color: #FFF;
+}
+.edu-text h1::before {
+  content: "";
+  position: absolute;
+  height: 40px;
+  width: 2px;
+  background: #7c7a7a;
+  top: 38%;
+  left: 3.5%;
+  border-radius: 10px;
+}
+.edu-text h3 {
+  padding-top: 10px;
+  padding-left: 50px;
+  font-size: 19px;
+  line-height: 21.6px;
+  color: #7c7a7a;
+}
+/* About Part Ended */
+
+/* Portfolio Part Started */
+#portfolio-part
+{
+  padding: 80px 0;
+  background: #1c1c22;
+}
+
+.prft-header-text
+{
+}
+
+
+.prft-header-text h1
+{
+  padding-right: 10px;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 67.56px;
+  font-family: "Raleway", sans-serif;
+  color: #F2F2F2;
+}
+.prft-header-text h2
+{
+   font-size: 56px;
+  font-weight: 700;
+  line-height: 67.56px;
+  font-family: "Raleway", sans-serif;
+  color: #2f8ff0;
+}
+
+.project-section a
+{
+  text-decoration: none;
+  color: #1c1c22;
+}
+
+.portfolio-img img
+{
+border-radius: 25px;
+border: 2px solid #2f8ff0;
+margin-top: 20px;
+}
+/* Portfolio Part Ended */
+
+/* Contact Part Started */
+#contact-part
+{
+  padding: 80px 0 100px 0;
+  background: #1c1c22;
+}
+.contact-header-text h1
+{
+  padding-right: 10px;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 67.56px;
+  font-family: "Raleway", sans-serif;
+  color: #F2F2F2;
+}
+.contact-header-text h2
+{
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 67.56px;
+  font-family: "Raleway", sans-serif;
+  color: #2f8ff0;
+}
+
+.get-in-touch h1
+{
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 67.56px;
+  font-family: "Raleway", sans-serif;
+  color: #FFF;
+
+}
+.get-in-touch p {
+  padding: 0 369px;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+  color: #FFF;
+}
+.call-and-mail h3 {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Raleway" ,sans-serif;
+  color: white;
+}
+.mail-icon
+{
+margin-right: 20px;
+  font-size: 30px;
+  color: #2f8ff0;
+
+}
+
+.call-icon
+{
+  margin-right: 20px;
+  font-size: 30px;
+  color: #2f8ff0;
+}
+
+.social-icons a
+{
+
+  text-decoration: none;
+  color: #1c1c22;
+
+}
+.social-icons i {
+  margin-right: 14px;
+  padding: 8px;
+  height: 42px;
+  width: 42px;
+  font-size: 25px;
+  background: #fff;
+  border-radius: 25px;
+}
+.social-icons .facebook i:hover
+{
+  background: #2f8ff0;
+  color: #fff;
+  transition: 0.3s ease;
+}
+.social-icons .whatsapp i:hover {
+
+  background: #25D366;
+  color: #fff;
+  transition: 0.3s ease;
+}
+.social-icons .linkedin i:hover {
+
+  background: #0A66C2;
+  color: #fff;
+  transition: 0.3s ease;
+}
+
+
+/* Contact Part Ended */
